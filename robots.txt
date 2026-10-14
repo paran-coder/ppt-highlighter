@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ppt-highlighter.vercel.app/sitemap.xml
