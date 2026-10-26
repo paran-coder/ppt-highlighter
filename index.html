@@ -155,7 +155,12 @@ html{scroll-padding-top:104px}body{line-height:1.8}h1{font-size:clamp(44px,4.8vw
   ]
 }
 </script>
-<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+<script>
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <a href="#main" class="skip">본문으로 이동</a>
